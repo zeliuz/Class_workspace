@@ -215,9 +215,6 @@ The result should look like this
 6
  
 ##STRIPS
-The function strip returns a copy of the string in which all characters have been stripped from the beginning and the end of the string. 
-The STRIPS language is basically a logic structure, it composed of an initial state and a goal for the state to specify fo the state. 
-A series of actions would happen if it meets the precondition and there will be a postcondition following the action.
 
 ##Read/Write Statements
  These are the so-called list-directed input/output statements. They are also referred to as free-format input/output statements. List-directed input/output statements are easy to use; however, we have no control over the appearance of the input and output. To overcome this problem, we should use formats.
@@ -276,8 +273,4 @@ that can be called with arbitrary data values.
 	#Create the 'C' Object and call the 'my_method' method
 	c = C()
 	c.my_method()  # Prints "I am a C"
-
-##csv
-CSV is a data file structure works for python and other programming languages. It is a comma separated values file.
-It can be easily applied as an excel table, numeric data can be set in line in order and structured well.
 
